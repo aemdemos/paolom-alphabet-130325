@@ -1,0 +1,368 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-01-b46a7251a4e52c040197163b9edb09be0fb7c185",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]/div[2]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-02-bf6bc3422b133d22277cf37a21695689ccac15db",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-01-b46a7251a4e52c040197163b9edb09be0fb7c185",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]/div[2]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-02-bf6bc3422b133d22277cf37a21695689ccac15db",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-15-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-15-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Columns (three columns)",
+      "cluster": 1,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-07-c1931b33eda47e61ff8dca396c2c5afed6a61ed0",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-11-ffa282119f752079ecb5e25446de6a1864437b04",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-12-ca387fba1f9b5c8091f69447f767d36f096cc09a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[5]"
+        }
+      ]
+    },
+    {
+      "name": "Columns (two columns)",
+      "cluster": 2,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-04-dd6c396ca4eb0aa68343c621a6420a0ada0b3a5e",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]/div[1]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-13-88b4bbdf6aacdf2377d6d21b7e592a1433bd8009",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[6]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel (multiple)",
+      "cluster": 3,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns (three columns)",
+      "cluster": 4,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-14-59e251073a768797b6547943715c0abf092e82e5",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[8]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "cluster": 5,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-03-4e74b9bf9f7d4a529dd9ad90445c271e68ad92ba",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-03-4e74b9bf9f7d4a529dd9ad90445c271e68ad92ba",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 6,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-01-b46a7251a4e52c040197163b9edb09be0fb7c185",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]/div[2]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-01-b46a7251a4e52c040197163b9edb09be0fb7c185",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns (two columns)",
+      "cluster": 7,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-06-c1931b33eda47e61ff8dca396c2c5afed6a61ed0",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-08-ffa282119f752079ecb5e25446de6a1864437b04",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[4]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-10-4207a4d0463bfbe567a291be19584dd1220e50fc",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[6]"
+        }
+      ]
+    },
+    {
+      "name": "Seach (minimal)",
+      "cluster": 8,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-04-d5fc3d9486bbf512afdb4d6200259f86942c1a70",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 9,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-02-bf6bc3422b133d22277cf37a21695689ccac15db",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns (two columns)",
+      "cluster": 10,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-06-4cc6f008bdd5ee740d6194066028140ec17373c0",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]/div[3]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-10-281fb0e65ed490ad0170ec45f93e2afbb50ec2fc",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Columns (two columns)",
+      "cluster": 11,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-05-31d3c8896b1fd3531c6b4d088f068667d668f20a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-07-07e0767bc523c83b4a6b7696c0e7c4104ff0ad6b",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-09-ca387fba1f9b5c8091f69447f767d36f096cc09a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[5]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-11-3899aebbddf22d13a9ef7c5133c8324ae48b95ef",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[7]"
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "cluster": 12,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-15-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-15-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 13,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-05-96fb128b4cfde232aeb9b1f1a6b2f607791aa2eb",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 14,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-12-31a136b00ee4d368075f69906d1d33fc1ab5c432",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 15,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-13-7450d1869cdc61b0083e6b04774313e4e6ba4c38",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[8]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 16,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-02-bf6bc3422b133d22277cf37a21695689ccac15db",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 17,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-14-0bd8c44cb64a9652badae6f2e0f6f878e0a4df20",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[6]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns (two columns)",
+      "cluster": 18,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de",
+          "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+          "uuid": "3d30e2e4-09-43779df1380350c1e45a1be77310a9e75c2743e0",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[2]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.alphabet.com/de-de",
+      "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
+      "uuid": "3d30e2e4-08-5c7e161dd06a2054bd85ad5bad11c3ddf78b8509",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[3]/div[1]"
+    }
+  ]
+}
