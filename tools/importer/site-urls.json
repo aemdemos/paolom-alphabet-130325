@@ -1,0 +1,24 @@
+{
+  "originUrl": "https://www.alphabet.com/",
+  "urls": [
+    {
+      "url": "https://www.alphabet.com/de-de",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+      "source": "CRAWL"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": -1,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "SITEMAPS",
+    "logger": {}
+  },
+  "extractionErrors": []
+}
