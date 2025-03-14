@@ -63,7 +63,8 @@
   ],
   "blocks": [
     {
-      "name": "Columns (three columns)",
+      "name": "Three-Columns",
+      "mapping": "Columns",
       "cluster": 1,
       "instances": [
         {
