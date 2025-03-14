@@ -7,8 +7,7 @@
 
 .three-columns-container > .three-columns-wrapper > .block.three-columns > div {
   display: flex;
-  flex-direction: row; /* Ensure bottom blocks are side by side */
-  flex-wrap: wrap;
+  flex-flow: row wrap; /* Ensure bottom blocks are side by side */
   gap: 20px;
 }
 
