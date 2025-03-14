@@ -34,7 +34,7 @@
   color: white; /* Set text color for readability */
   margin: 0; /* Remove unnecessary margin */
   padding: 10px 15px; /* Add compact padding around the text */
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+  background: rgb(0 0 0 / 50%); /* Semi-transparent dark overlay */
   border-radius: 5px; /* Optional rounded corners */
   z-index: 2; /* Ensure it appears above the background */
 }
