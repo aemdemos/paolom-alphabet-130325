@@ -63,8 +63,7 @@
   ],
   "blocks": [
     {
-      "name": "Three-Columns",
-      "mapping": "Columns",
+      "name": "Columns (three columns)",
       "cluster": 1,
       "instances": [
         {
@@ -84,6 +83,19 @@
           "urlHash": "3d30e2e4c0c74a81011d03eeed86c6e8e1f6c6fd",
           "uuid": "3d30e2e4-12-ca387fba1f9b5c8091f69447f767d36f096cc09a",
           "xpath": "/html[1]/body[1]/div[1]/main[1]/section[5]"
+        }
+      ]
+    },
+    {
+      "name": "Three-Columns",
+      "mapping": "Columns",
+      "cluster": 4,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-14-59e251073a768797b6547943715c0abf092e82e5",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[8]/div[2]"
         }
       ]
     },
@@ -120,18 +132,6 @@
           "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
           "uuid": "b8e178a6-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
           "xpath": "/html[1]/body[1]/div[1]/header[1]"
-        }
-      ]
-    },
-    {
-      "name": "Columns (three columns)",
-      "cluster": 4,
-      "instances": [
-        {
-          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
-          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
-          "uuid": "b8e178a6-14-59e251073a768797b6547943715c0abf092e82e5",
-          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[8]/div[2]"
         }
       ]
     },
