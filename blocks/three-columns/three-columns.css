@@ -1,0 +1,79 @@
+
+.three-columns-container > .three-columns-wrapper > .block.three-columns {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.three-columns-container > .three-columns-wrapper > .block.three-columns > div {
+  display: flex;
+  flex-direction: row; /* Ensure bottom blocks are side by side */
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.three-columns-container > .three-columns-wrapper > .block.three-columns > div > div:first-child {
+  flex: 1 1 100%; /* Top block spans full width */
+  background: linear-gradient(to bottom, #1a237e, #0d1b47); /* Gradient background */
+  padding: 20px;
+  border-radius: 8px;
+  position: relative; /* Enable positioning of text over the image */
+  display: flex;
+  align-items: flex-end; /* Align content to the bottom */
+  justify-content: flex-start; /* Align text to the left */
+  color: white;
+}
+
+.three-columns-container > .three-columns-wrapper > .block.three-columns > div > div:first-child h3 {
+  position: absolute; /* Overlay the text */
+  bottom: 20px;
+  left: 20px;
+  margin: 0; /* Remove unnecessary margin */
+}
+
+.three-columns-container > .three-columns-wrapper > .block.three-columns > div > div:nth-child(2) {
+  flex: 1 1 50%; /* Bottom left block occupies half width */
+  background: #ff5252; /* Coral/pink background */
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row; /* Ensure elements align side by side */
+  align-items: flex-start; /* Align content to the top */
+  justify-content: flex-start; /* Align content to the left */
+  color: white;
+}
+
+.three-columns-container > .three-columns-wrapper > .block.three-columns > div > div:nth-child(2) h3 {
+  margin: 0; /* Remove unnecessary margin */
+  align-self: flex-start; /* Align title to the top-left corner */
+}
+
+.three-columns-container > .three-columns-wrapper > .block.three-columns > div > div:nth-child(3) {
+  flex: 1 1 50%; /* Bottom right block occupies half width */
+  background: #3949ab; /* Solid dark blue background */
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row; /* Ensure image and text/buttons are side by side */
+  gap: 20px;
+  align-items: center; /* Align content vertically */
+  justify-content: space-between; /* Space out the image and text/buttons */
+  color: white;
+}
+
+.three-columns-container > .three-columns-wrapper > .block.three-columns > div > div:nth-child(3) img {
+  flex: 1 1 50%; /* Ensure image occupies half width */
+  border-radius: 8px;
+}
+
+.three-columns-container > .three-columns-wrapper > .block.three-columns > div > div:nth-child(3) h4 {
+  margin: 0; /* Remove unnecessary margin */
+  align-self: flex-start; /* Align title to the top-left corner */
+}
+
+.three-columns-container > .three-columns-wrapper > .block.three-columns > div > div:nth-child(3) .button-container {
+  display: flex;
+  flex-direction: row; /* Align buttons horizontally */
+  gap: 15px; /* Increase spacing between buttons */
+  margin-top: 10px; /* Add spacing below the title */
+}
