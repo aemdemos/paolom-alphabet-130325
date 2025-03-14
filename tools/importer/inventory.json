@@ -155,6 +155,18 @@
     },
     {
       "name": "Hero",
+      "cluster": 9,
+      "instances": [
+        {
+          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
+          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
+          "uuid": "b8e178a6-02-bf6bc3422b133d22277cf37a21695689ccac15db",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
       "cluster": 6,
       "instances": [
         {
@@ -204,18 +216,6 @@
           "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
           "uuid": "b8e178a6-04-d5fc3d9486bbf512afdb4d6200259f86942c1a70",
           "xpath": "/html[1]/body[1]/div[1]/main[1]/div[3]"
-        }
-      ]
-    },
-    {
-      "name": "Hero",
-      "cluster": 9,
-      "instances": [
-        {
-          "url": "https://www.alphabet.com/de-de/fuhrparkservices",
-          "urlHash": "b8e178a626352cf244365dcbf7519eeacfb38741",
-          "uuid": "b8e178a6-02-bf6bc3422b133d22277cf37a21695689ccac15db",
-          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]"
         }
       ]
     },
