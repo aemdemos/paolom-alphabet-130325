@@ -1,37 +1,65 @@
-.hero-container .hero-wrapper {
+
+.hero-container > .hero-wrapper {
   max-width: unset;
   padding: 0;
-}
-
-.hero {
+  height: 100vh; /* Full viewport height */
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+  overflow: hidden; /* Prevent overflow */
+  background-image: url('./media_12d2afb81534d9e60b7ac6e8760b7940524892411.jpeg?width=2000&format=jpeg&optimize=medium');
+  background-size: cover; /* Ensure the image covers the entire hero */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat;
+  display: flex; /* Enable flexbox layout */
+  flex-direction: row; /* Align elements side by side */
+  justify-content: flex-start; /* Align content to the start horizontally */
+  align-items: flex-end; /* Align items to the bottom vertically */
 }
 
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+.hero-container > .hero-wrapper > .hero {
+  flex: 1; /* Allow the hero content to take up space */
+  position: relative;
+  z-index: 1; /* Ensure it appears above the background */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: row; /* Align content side by side */
+  align-items: flex-end; /* Align text content to the bottom */
+  padding: 0 20px; /* Add padding for spacing */
 }
 
-.hero picture {
+.hero-container > .hero-wrapper > .hero h1 {
+  position: absolute; /* Position text relative to the block */
+  bottom: 15px; /* Reduce gap between text and red line */
+  left: 20px; /* Keep left alignment */
+  font-size: var(--heading-font-size-xxl); /* Large heading font size */
+  font-weight: bold; /* Ensure text is bold */
+  color: white; /* Set text color for readability */
+  margin: 0; /* Remove unnecessary margin */
+  padding: 10px 15px; /* Add compact padding around the text */
+  background: rgb(0 0 0 / 50%); /* Semi-transparent dark overlay */
+  border-radius: 5px; /* Optional rounded corners */
+  z-index: 2; /* Ensure it appears above the background */
+}
+
+.hero-container > .hero-wrapper > .hero h1::after {
+  content: 'Maßgeschneiderte Services für Unternehmen und Behörden'; /* Subtitle text */
+  display: block; /* Display subtitle as a block */
+  font-size: var(--heading-font-size-m); /* Adjust subtitle font size */
+  color: white; /* Ensure readability */
+  margin-top: 2px; /* Reduce spacing between title and subtitle */
+}
+
+.hero-container > .hero-wrapper::after {
+  content: '';
   position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
-}
-
-.hero img {
-  object-fit: cover;
+  bottom: 0; /* Position the line flush with the bottom */
+  left: 0;
   width: 100%;
-  height: 100%;
+  height: 5px; /* Thickness of the red line */
+  background-color: red; /* Red accent line */
+  z-index: 3; /* Ensure it appears above the background */
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
-  }
+.hero-container > .hero-wrapper > .hero picture {
+  flex: 1; /* Allow the image to take up equal space */
+  order: 1; /* Position the image on the left */
+  object-fit: cover; /* Ensure the image is not stretched */
 }
